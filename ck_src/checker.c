@@ -6,7 +6,7 @@
 /*   By: escastel <escastel@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/22 11:12:34 by escastel          #+#    #+#             */
-/*   Updated: 2024/01/22 11:36:41 by escastel         ###   ########.fr       */
+/*   Updated: 2024/01/22 15:21:31 by escastel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,8 +72,6 @@ int	main(int argc, char **argv)
 	if (initialize(data))
 		exit(EXIT_FAILURE);
 	assign_index(data);
-	if (check_order(data))
-		exit(EXIT_SUCCESS);
 	if (checker(data))
 		exit(EXIT_FAILURE);
 	exit(EXIT_SUCCESS);
